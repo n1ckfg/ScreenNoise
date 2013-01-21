@@ -1,0 +1,5 @@
+Mode (0=cycle, 1=noise, 2=white, 3=strobe)
+0
+
+Mode Delay (seconds)
+5
