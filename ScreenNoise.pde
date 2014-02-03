@@ -1,3 +1,5 @@
+//import processing.opengl.*;
+
 PImage img;
 int sW, sH;
 int mode = 0;
@@ -10,7 +12,7 @@ void setup() {
   Settings settings = new Settings("settings.txt");
   sW = screen.width;
   sH = screen.height;
-  size(sW, sH);
+  size(sW, sH, P2D);
   frameRate(60);
   img = createImage(sW, sH, RGB);
   noCursor();
